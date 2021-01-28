@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: 983499284@qq.com
 description: "CS, BUAA, MM, Study"
 keyword: "CS, BUAA, MMM"
-url: "https://sunzey.github.io/          # your host, for absolute URL
+url: "https://sunzey.github.io"         # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/SunzeY/SunzeY.github.io" # you code repository
 

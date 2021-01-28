@@ -14,7 +14,7 @@ y = sin(x);                  % 此行执行后，y将作为一个与x同形的�
 plot(x, y)                   %此步系统调用将进行打点绘图
 ```
 
-![](C:\Users\123\Desktop\blog\SunzeY.github.io\_posts\MM[01]1.jpg)
+![](MM[01]\1.jpg)
 
 调整x的步长， 打点的精度也会随之改变。三维绘图实际上是空间中打点并连点成线（三维曲线）或者连点成网（三维曲面），与此同理。
 
@@ -29,7 +29,7 @@ y = m .* sin(x);   % m与sin(x)两个列向量进行内积的结果赋值给y，
 plot(x, y)
 ```
 
-![](C:\Users\123\Desktop\blog\SunzeY.github.io\_posts\MM[01]2.jpg)
+![](MM[01]\2.jpg)
 
 
 
@@ -42,7 +42,7 @@ z = x.^2 + y.^2;      % 这里等价于 z = x.*x + y.*y
 surf(x, y, z);
 ```
 
-![](C:\Users\123\Desktop\blog\SunzeY.github.io\_posts\MM[01]3.jpg)
+![](MM[01]\3.jpg)
 
 x.*x 的结果是[xij * xij  for xij in x]，其结果是x矩阵自己进行内积（这里的x实际上为100*100的矩阵）。
 
